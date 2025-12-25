@@ -11,7 +11,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/Social_media">
         <div className="min-h-screen bg-gray-50">
           <Navbar />
           <Routes>
@@ -42,4 +42,4 @@ function App() {
   )
 }
 
-export default App
+export default
