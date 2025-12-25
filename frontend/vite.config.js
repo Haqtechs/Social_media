@@ -1,11 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Social_media/',
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets'
-  }
-})
+  base: "/Social_media/"
+});
