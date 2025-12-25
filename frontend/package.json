@@ -2,7 +2,7 @@
   "name": "social-media-frontend",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Haqtechs.github.io/Social_media",
+  "homepage": "https://haqtechs.github.io/Social_media",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
